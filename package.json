@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "NODE_ENV=development nodemon backend/server.js",
-   "build": "npm install --prefix frontend/vite-project && npm run build --prefix frontend/vite-project",
+    "build": "npm install --prefix frontend/vite-project && npm run build --prefix frontend/vite-project",
     "start": "cross-env NODE_ENV=production node backend/server.js"
   },
   "type": "module",
