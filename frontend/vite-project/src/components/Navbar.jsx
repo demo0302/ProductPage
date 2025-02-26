@@ -21,10 +21,10 @@ const Navbar = () => {
 					fontWeight={"bold"}
 					textTransform={"uppercase"}
 					textAlign={"center"}
-					bgGradient={"linear(to-r, cyan.400, blue.500)"}
+					bgGradient={"linear(to-r, red.400, blue.500)"}
 					bgClip={"text"}
 				>
-					<Link to={"/"}>Product Store 🛒</Link>
+					<Link to={"/"}>Save Your Wishlist🛒</Link>
 				</Text>
 
 				<HStack spacing={2} alignItems={"center"}>

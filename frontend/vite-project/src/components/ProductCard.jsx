@@ -110,7 +110,7 @@ const ProductCard = ({ product }) => {
 				<ModalOverlay />
 
 				<ModalContent>
-					<ModalHeader>Update Product</ModalHeader>
+					<ModalHeader>Make Changes in Product</ModalHeader>
 					<ModalCloseButton />
 					<ModalBody>
 						<VStack spacing={4}>
